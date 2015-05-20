@@ -12,9 +12,6 @@ RUN \
     ln -s /opt/$SOLR/example /opt/solr && \
     ln -s /tmp/apachesolr/solr-conf/solr-4.x /opt/$SOLR/example/multicore/core0/conf
 
-
-#COPY /tmp/apachesolr/solr-conf/solr-4.x /opt/$SOLR/example/multicore/core0/conf
-
 ENV SOLR_HOME /opt/solr
 
 EXPOSE 8983
